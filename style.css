@@ -41,3 +41,30 @@ background-image: url(dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
 }
+.shadow{
+   box-shadow: 10px 10px 40px grey ;
+   border-radius: 15px;
+   height: 70%;
+}
+.xp{
+   background-image: url("xp-bg.png"); 
+   background-repeat: no-repeat;
+   background-position: left;
+  background-color: white;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+    border-radius: 15px;
+    background-color: white;
+}
+#baby-dev{
+border-left:7px solid;
+border-image: linear-gradient(180deg, blue, cyan );
+border-image-slice: 1;
+border-radius: 15px;
+}
+footer p{
+   text-align: center;  
+}
